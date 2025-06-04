@@ -18,7 +18,7 @@ class _RutinasScreenState extends State<RutinasScreen> {
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
-                const Icon(Icons.add_circle_outline, size: 48, color: Color(0xFF3A88D0)),
+                const Icon(Icons.add_circle_outline, size: 48,color: Color(0xFF5DADE2)),
                 const SizedBox(height: 12),
                 const Text(
                   'Agregar /Editar Rutina',
@@ -26,7 +26,7 @@ class _RutinasScreenState extends State<RutinasScreen> {
                   style: TextStyle(
                     fontSize: 18,
                     fontWeight: FontWeight.bold,
-                    color: Color(0xFF3A88D0),
+                    color: Color(0xFF5DADE2),
                   ),
                 ),
                 const SizedBox(height: 20),
